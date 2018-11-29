@@ -10,7 +10,8 @@ $(document).ready(function(){
 				'dataType': "JSONP",
 				'data':{
 					'apikey':"3cded554eb33d306f358f7fdce2ac783",
-					'q_artist': searchTerm
+					'q_artist': searchTerm,
+					'format': 'JSONP'
 				},
 
 				success:function(data){
